@@ -1,5 +1,28 @@
-When a request comes in:
+# 📚 Bookstore REST API
+
+A clean, minimal REST API for a digital bookstore, built using FastAPI.
+
+---
+
+## ⚙️ Features
+
+- ➕ Add, 🔍 View, 📝 Update, 🗑️ Delete books
+- 💡 JSON input/output
+- 🛡️ Validated using Pydantic models
+- 🚀 Swagger documentation at `/docs`
+
+---
+
+## 🚀 How to Run
+
+1. Install dependencies:
+
+```bash
+pip install fastapi uvicorn
+
+
 ```
+When a Request comes in:
 1. Request hits uvicorn server
    ↓
 2. Uvicorn forwards to FastAPI app (main.py)
