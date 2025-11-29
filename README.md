@@ -36,3 +36,14 @@ When a Request comes in:
 6. Database validates with models (models.py)
    ↓
 7. Response flows back up the chain
+
+
+# ✅ Key Concepts
+
+- How to build APIs using FastAPI
+- Defining routes for CRUD operations
+- Using Pydantic for validation
+- Structuring JSON response
+- Error handling and status codes in backend
+
+---
